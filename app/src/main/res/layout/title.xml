@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_titlebar"
+    android:layout_width="match_parent"
+    android:layout_height="52dp"
+    android:background="#8dc9db" >
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:layout_weight="1"
+        android:singleLine="true"
+        android:text="MyCC98"
+        android:background="#8dc9db"
+        android:textColor="#ffffffff"
+        android:textSize="20dp"
+        android:paddingLeft="15dp"/>
+    <Button
+        android:id="@+id/button_toolbar_logout"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:paddingLeft="5dp"
+        android:singleLine="true"
+        android:text="注销"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:background="#8dc9db"
+        />
+    <Button
+        android:id="@+id/button_toolbar_new"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:paddingLeft="5dp"
+        android:singleLine="true"
+        android:text="新帖"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:background="#8dc9db"
+        />
+    <Button
+        android:id="@+id/button_toolbar_board"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:paddingLeft="5dp"
+        android:singleLine="true"
+        android:text="版面"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:background="#8dc9db"
+         />
+
+    <Button
+        android:id="@+id/button_toolbar_main"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="5dp"
+        android:text="主页"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:background="#8dc9db"
+         />
+
+</LinearLayout>

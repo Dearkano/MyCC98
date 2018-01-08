@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff">
+    <include layout="@layout/title"/>
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+        android:layout_weight="1">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/posts_ll"
+        tools:context="com.example.tianzijun.mycc98.TopicActivity">
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:orientation="horizontal" android:focusableInTouchMode="true">
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:id="@+id/lastPage"
+            android:text="上一页"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="40sp"
+            android:layout_weight="1"
+            android:textColor="#000"
+            android:background="#eaeaea"
+            android:id="@+id/replyEditor"
+            />
+
+        <Button
+            android:layout_width="60sp"
+            android:layout_height="40sp"
+            android:id="@+id/replyButton"
+            android:text="发表"/>
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:id="@+id/nextPage"
+            android:text="下一页"/>
+    </LinearLayout>
+</LinearLayout>

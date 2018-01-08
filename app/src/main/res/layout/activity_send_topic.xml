@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <include layout="@layout/title"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        tools:context="com.example.tianzijun.mycc98.SendTopicActivity">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:text="标题"
+                android:background="#000"
+                android:gravity="center"/>
+            <EditText
+                android:textColor="#000" android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/send_topic_title"/>
+            <TextView android:layout_width="match_parent"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:background="#000" android:layout_height="wrap_content" android:text="内容" />
+            <EditText
+                android:textColor="#000" android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:id="@+id/send_topic_content"/>
+            <Button
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="发帖"
+                android:textColor="#fff"               android:id="@+id/send_topic_send"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:text="Hint:
+            仅支持在无标签的版面发帖，其他如数码等交易板块请到网页版发帖哦~
+                                                                                    ——Dearknao"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
